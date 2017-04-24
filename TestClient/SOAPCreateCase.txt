@@ -1,0 +1,15 @@
+﻿<createCasesAsString xmlns="http://tempuri.org/">
+<casesInfo>
+<![CDATA[
+<BizAgiWSParam>
+    <domain>domain</domain>
+    <userName>admon</userName>
+    <Cases>
+	    <Case>
+		    <Process>TestWidget</Process>
+	    </Case>
+    </Cases>
+</BizAgiWSParam>
+]]>
+</casesInfo>
+</createCasesAsString>

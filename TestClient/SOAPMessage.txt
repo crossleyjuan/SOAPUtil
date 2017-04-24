@@ -1,0 +1,4 @@
+﻿<GetData xmlns="http://tempuri.org/">
+	<!--Optional:-->
+	<value>2</value>
+</GetData>
