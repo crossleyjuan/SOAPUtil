@@ -58,13 +58,16 @@ namespace SOAPClient
 
             if (node.FirstChild != null && node.FirstChild.FirstChild != null)
             {
-                return node.FirstChild.FirstChild.InnerXml;
+                string result = node.FirstChild.FirstChild.InnerXml;
+                result = XmlHelper.UnescapeXml(result);
+                return result;
             }
             else
             {
                 return "";
             }
         }
+
 
         private static void SendRequest(string soapMessage, HttpWebRequest webRequest)
         {
